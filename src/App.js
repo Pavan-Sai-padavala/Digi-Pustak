@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Notes from './pages/Notes';
 import Landing from './pages/Landing';
 function App() {
   return (
