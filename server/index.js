@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.use('/notes',require('./routes/notes.js'));
 app.use('/tasks',require('./routes/tasks.js'));
-// app.use('/habits',require('./routes/habits.js'));
+app.use('/habits',require('./routes/habits.js'));
 
 const db = require('./config/mongoose.js')
 
